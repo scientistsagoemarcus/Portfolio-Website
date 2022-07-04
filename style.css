@@ -3,82 +3,130 @@
   padding: 0;
 }
 
+/* imported google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
+/* this header contains the a text and a manu-bar on top of the homepage */
 .header {
   background-color: #3c3a39;
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 40px;
   padding-left: 20px;
   padding-right: 20px;
   color: #fff;
+  width: 375px;
+  height: 92px;
 }
 
+/* styling the anchor tags  */
 .header a {
   color: #fff;
   text-decoration: none;
+  width: 77px;
+  height: 24px;
+  top: 10px;
+  left: 12px;
+  text-align: center;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  size: 18px;
+  line-height: 24px;
+  line-height: 114%;
+  font-size: 18px;
+  font-style: 'Bold';
 }
 
+/* social media handles page */
+.social-networks-block img {
+  margin-right: 10px;
+  height: 20px;
+  width: 17.99px;
+  color: #dbd8d7;
+}
+
+/* this style is for the manu-bar */
+.header nav img {
+  width: 16px;
+  top: 7px;
+  left: 4px;
+}
+
+/* the content on the mainpage containing greetings message */
 .content {
   display: flex;
   flex-direction: column;
   align-content: center;
-  padding-top: 20%;
-  background: #1c1a19;
-  height: 100vh;
-  padding-left: 5%;
-  padding-right: 5%;
+  background: #1c1a19 url("images/ibg.svg") no-repeat;
+  height: 590px;
+  width: 375px;
+  padding: 120px 24px 120px 24px;
+  top: 92px;
+  gap: 10px;
 }
 
+/* styling the greeting text */
 .greeting-text {
+  width: 327px;
   height: 124px;
-  margin-bottom: 1.9em;
+  line-height: 64px;
+  letter-spacing: 0.37px;
+  font-weight: 400;
 }
 
+/* this is the h1 element in the greetings class */
 .greeting-text h1 {
   color: #ff6b00;
+  font-family: 'Crete Round', serif;
+  font-style: 'Regular';
+  vertical-align: top;
   font-size: 56px;
+  font-weight: 100;
   line-height: 64px;
   letter-spacing: 0.37px;
 }
 
+/* this is what describes the mainpage */
 .description {
   color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  size: 24px;
+  line-height: 32px;
 }
 
-.description h2 {
+/* brief description of the text */
+.description h3 {
   font-size: 24px;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   line-height: 32px;
 }
 
-.social-networks-block {
-  display: flex;
-  margin-top: 0.5em;
+/* this is a paragraph */
+.description p {
+  font-family: 'Poppins', sans-serif;
+  font-style: 'Regular';
+  font-size: 12px;
+  line-height: 24px;
+  vertical-align: top;
 }
 
-/* social media handles page */
-.social-networks-block img {
-  margin-right: 10px;
-  width: 17.99px;
-  height: 20px;
-  color: #dbd8d7;
+/* this block handles the social media plateforms */
+.social-networks-block {
+  display: flex;
+  margin-top: 0.3em;
+  flex-direction: row;
+  gap: 10px;
 }
 
 .social-networks-block li {
   list-style: none;
-}
-
-/* paragraph description */
-.description p {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
 }
