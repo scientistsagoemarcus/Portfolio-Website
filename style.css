@@ -4,8 +4,9 @@
 }
 
 /* imported google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
 *,
 *::before,
@@ -50,6 +51,18 @@
   height: 20px;
   width: 17.99px;
   color: #dbd8d7;
+}
+
+.lang img {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+}
+
+.top-stories img {
+  width: 327px;
+  height: 237px;
+  margin-top: 25%;
 }
 
 /* this style is for the manu-bar */
@@ -129,4 +142,273 @@
 
 .social-networks-block li {
   list-style: none;
+}
+
+/* section2 talking about recent-works */
+.recent-works {
+  width: 375px;
+  height: 300px;
+  margin-top: 50px;
+  gap: 80px;
+}
+
+/* h3 tag describing recent work text */
+.works {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.recent-works hr {
+  width: 327px;
+  margin-left: 5%;
+}
+
+.works h3 {
+  display: flex;
+  font-family: 'Crete Round', serif;
+  font-style: 'Regular';
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  vertical-align: center;
+  color: #1c1a19;
+  font-weight: 200;
+}
+
+/* main class of the recent section */
+.recent {
+  display: grid;
+  justify-content: center;
+}
+
+/* h2 tag of the top-stories element */
+.top-stories h2 {
+  font-family: 'Crete Round', serif;
+  font-style: 'Regular';
+  font-size: 32px;
+  line-height: 44px;
+  vertical-align: center;
+  color: #091e42;
+  font-weight: 200;
+  margin-top: 5%;
+}
+
+/* styling the paragraph text in article content */
+.top-stories p {
+  font-family: 'Inter', sans-serif;
+  font-style: 'Regular';
+  font-size: 16px;
+  line-height: 24px;
+  vertical-align: top;
+  font-weight: 200;
+}
+
+/* styling the tools class */
+.tools {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.tools li {
+  list-style: none;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid black;
+  font-family: 'InaiMathi', sans-serif;
+}
+
+/* all this part is for the button */
+.button {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 3%;
+  text-align: center;
+  background-color: #f55800;
+  color: #fff;
+  border: 2px solid #f55800;
+  padding: 20px;
+}
+
+.button:hover {
+  color: #ff6b00;
+  background-color: #fff;
+  border: 2px solid #f55800;
+}
+
+.button:active {
+  color: #fff;
+  background-color: #f55800;
+}
+
+.button:disabled {
+  background-color: #5b5957;
+}
+
+/* this is another article class talking about professional art */
+.art {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("images/art.png");
+  width: 327px;
+  height: 386px;
+}
+
+/* styling various tags in the art class */
+.art h2 {
+  width: 295px;
+  height: 81px;
+  margin-top: 80px;
+  margin-left: 16px;
+  font-family: 'crete Round', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  top: 16px;
+}
+
+.art p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  margin-left: 20px;
+}
+
+.tools1 {
+  display: flex;
+}
+
+.tools1 li {
+  list-style: none;
+  color: #fff;
+  border: 1px solid #fff;
+  margin-right: 5px;
+  background: #ffffff3d;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  margin-left: 20px;
+}
+
+.article {
+  margin-top: 10px;
+}
+
+/* about the Developer styling page */
+.aboutme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  width: 100%;
+  height: 1901px;
+  background-color: #1c1a19;
+}
+
+/* styling the individual tags */
+.aboutme h2 {
+  font-family: 'Crete Round', sans-serif;
+  width: 327px;
+  height: 79px;
+  font-weight: 400;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  font-size: 72px;
+}
+
+.aboutme p {
+  height: 148px;
+  margin-top: 20px;
+  margin-left: 24px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f5f7;
+}
+
+/* the button tag styling */
+.block-img-group button {
+  margin-left: 35px;
+  width: 161px;
+  height: 48px;
+  padding: 12px;
+}
+
+.aboutme hr {
+  width: 327px;
+  margin-right: 7%;
+  background-color: #e5e5e5;
+}
+
+/* the main language class styling with it's individual tags */
+.lang {
+  color: #fff;
+  margin-top: 50px;
+}
+
+.lang li {
+  list-style: none;
+}
+
+.lang > ul li {
+  width: 164px;
+  height: 24px;
+}
+
+.lang li ul li {
+  font-family: 'Inter', sans-serif;
+  width: 162px;
+  height: 24;
+  font-size: 22px;
+  line-height: 42.67px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.lang > li:first-child {
+  margin-left: 12px;
+}
+
+.lang > li:last-child {
+  margin-left: 42px;
+}
+
+.lang li > span {
+  width: 164px;
+  height: 24px;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: 'InaiMathi', sans-serif;
+}
+
+.img2 {
+  width: 200px;
+  height: 200px;
+}
+
+.block-img-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+/* the background image tag */
+.block-img-group > div {
+  background-image: url("images/Group.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  height: 300px;
+  width: 200px;
 }
