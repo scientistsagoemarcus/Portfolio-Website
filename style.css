@@ -216,9 +216,9 @@
 
 .tools li {
   list-style: none;
-  padding: 10px;
+  padding: 8px;
   margin-right: 10px;
-  border: 1px solid black;
+  border: 1px solid #8993a4;
   font-family: 'InaiMathi', sans-serif;
 }
 
@@ -291,13 +291,16 @@
 .tools1 li {
   list-style: none;
   color: #fff;
-  border: 1px solid #fff;
+  border: 0.5px solid rgba(255, 255, 255, 0.24);
   margin-right: 5px;
-  background: #ffffff3d;
-  padding: 10px;
+  background: rgba(255, 255, 255, 0.24);
+  padding: 5px;
   text-align: center;
   font-family: 'Inter', sans-serif;
+  font-style: 'Medium';
   margin-left: 20px;
+  font-size: 15px;
+  line-height: 24px;
 }
 
 .article {
@@ -312,12 +315,14 @@
   margin-top: 20px;
   width: 100%;
   height: 1901px;
+  top: 4137px;
   background-color: #1c1a19;
 }
 
 /* styling the individual tags */
 .aboutme h2 {
   font-family: 'Crete Round', sans-serif;
+  font-style: 'Regular';
   width: 327px;
   height: 79px;
   font-weight: 400;
@@ -325,6 +330,8 @@
   letter-spacing: 0.37px;
   color: #ff6b00;
   font-size: 72px;
+  vertical-align: top;
+  margin-top: 120px;
 }
 
 .aboutme p {
@@ -333,7 +340,7 @@
   margin-left: 24px;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 24px;
   color: #f4f5f7;
 }
@@ -355,7 +362,7 @@
 /* the main language class styling with it's individual tags */
 .lang {
   color: #fff;
-  margin-top: 50px;
+  margin-top: 30%;
 }
 
 .lang li {
@@ -382,7 +389,7 @@
 }
 
 .lang > li:last-child {
-  margin-left: 42px;
+  margin-left: 5px;
 }
 
 .lang li > span {
@@ -391,11 +398,8 @@
   font-size: 32px;
   font-weight: 700;
   font-family: 'InaiMathi', sans-serif;
-}
-
-.img2 {
-  width: 200px;
-  height: 200px;
+  line-height: 44px;
+  font-style: bold;
 }
 
 .block-img-group {
@@ -411,4 +415,6 @@
   background-position: right;
   height: 300px;
   width: 200px;
+  position: relative;
+  left: -10px;
 }
