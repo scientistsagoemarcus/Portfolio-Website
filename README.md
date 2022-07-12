@@ -24,5 +24,6 @@ Sagoe Bright Marcus
 # Social Media Links
 
 - GitHub: [@github](https://www.linkedin.com/in/bright-marcus-sagoe-74335820a/)
-- Twitter: [@facebook](https://web.facebook.com/?_rdc=1&_rdr)
+- FaceBook: [@facebook](https://web.facebook.com/?_rdc=1&_rdr)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- Twitter: [@twitter] (https://twitter.com/SagoeMarcus)
